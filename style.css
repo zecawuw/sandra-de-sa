@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+h1, h2{
+    color: #00cc99;
+}
+
+p{
+    color: #2c2b2b;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #2c2b2b;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-end;
+    margin-bottom: 5%;
+}
+
+a{
+    color: #00cc99;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: 'Lobster Two', cursive;
+}
+
+.bio{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+.img-bio{
+    background-image: url("https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/4/9/f/7/49f776df1df6944997362d3c82600e44.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 40%;
+    height: 750px;
+    display: inline-block;
+}
+
+.biografia{
+    width: 45%;
+}
+
+.biografia > h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 4%;
+    border-bottom: 6px solid #00cc99;
+    width: 16%;
+    color: #2c2b2b;
+}
+
+.biografia > p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.pre{
+    margin-left: 21%;
+}
+
+.pre > h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 4%;
+    border-bottom: 6px solid #00cc99;
+    width: 7%;
+    color: #2c2b2b;
+}
+
+.pre > ul{
+    font-size: 25px;
+    color: #2c2b2b;
+    margin-left: 100px;
+    margin-bottom: 8%;
+}
+
+.fei{
+    margin-left: 21%;
+}
+
+.fei > h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 4%;
+    border-bottom: 6px solid #00cc99;
+    width: 6%;
+    color: #2c2b2b;
+}
+
+.fei > ul{
+    font-size: 25px;
+    color: #2c2b2b;
+    margin-left: 100px;
+    margin-bottom: 8%;
+}
+
+.music{
+    margin-left: 21%;
+}
+
+.music > h2{
+    color: #2c2b2b;
+    border-bottom: 6px solid #00cc99;
+    width: 5%;
+    margin-bottom: 4%;
+}
+
+.music > iframe{
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+footer{
+    background-color: #2c2b2b;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.alunos{
+    position: relative;
+    top: -96px;
+    left: 100px;
+}
+
+.alunos > p{
+    color: #00cc99;
+    font-size: 25px;
+}
+
+.footer-head{
+    position: absolute;
+    background-color: #00cc99;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer-head > a{
+    color: #2c2b2b;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-family: 'Lobster Two', cursive;
+}
+
+.redes{
+    width: 1370px;
+    height: 140px;
+    position: relative;
+    top: -105px;
+    left: 165px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    justify-items: center;
+    /* display: none; */
+}
+
+@media screen and (max-width: 1280px){
+    .alunos {
+        position: relative;
+        top: -96px;
+        left: 100px;
+        width: 223px;
+    }
+
+    .redes{
+        width: 10%;
+        height: 140px;
+        position: relative;
+        top: -10%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        justify-items: center;
+        /* display: none; */
+    }
+
+    .redes > a > img{
+        margin: 30px;
+    }
+
+    .img-bio {
+        margin-right: 30px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .bio{
+        display: flex;
+        flex-direction:column;
+        margin-bottom: 4%;
+    } 
+
+    .img-bio {
+        background-size: 100%;
+        width: 39%;
+        height: 255px;
+        margin: 0 auto;
+        background-position:initial;
+    }
+
+    .biografia{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .pre, .fei, .music{
+        margin-left: 5%;
+    }
+
+    .music > iframe{
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+
+    .alunos {
+        position: relative;
+        top: -23%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    footer{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .redes{
+        width: 10%;
+        height: 140px;
+        position: relative;
+        top: 18%;
+        left: 7%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        justify-items: center;
+        /* display: none; */
+    }
+
+    .redes > a > img{
+        margin: 20px;
+    }
+
+    .footer-head > a {
+        font-size: 25px;
+    }
+
+    .fei > ul {
+        margin-left: 55px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .redes > a > img{
+        margin: 5px;
+    }
+
+    .redes{
+        width: 10%;
+        height: 140px;
+        position: relative;
+        top: 18%;
+        left: -16%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        justify-items: center;
+        /* display: none; */
+    }
+
+    .footer-head > a {
+        font-size: 16px;
+    }
+
+    a {
+        color: #00cc99;
+        text-decoration: none;
+        font-size: 18px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        font-family: 'Lobster Two', cursive;
+    }
+}
