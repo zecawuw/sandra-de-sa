@@ -295,8 +295,12 @@ footer{
         font-size: 25px;
     }
 
+    .pre > ul{
+        margin-left: 35px;
+    }
+
     .fei > ul {
-        margin-left: 55px;
+        margin-left: 35px;
     }
 }
 
