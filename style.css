@@ -33,8 +33,71 @@ header{
     display: flex;
     justify-content:space-evenly;
     align-items: flex-end;
+}
+
+.efeito-header{
+    width: 100%;
+    height: 70px;
     margin-bottom: 5%;
 }
+
+.shapedividers_com-1516{
+    overflow:hidden;
+    position:relative;
+    }
+    .shapedividers_com-1516::before{
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    top: -2px;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat; 
+    transform:scaleX(1.3);
+    transform-origin: 100% 0;
+    animation: 37s infinite alternate shape-anim-9471-mobile linear;
+    background-size: 100% 37px;
+    background-position: 50% 0%;    
+    background-image: url('data:image/svg+xml;charset=utf8, <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><g fill="%232c2b2b"><path d="M439 34l29 25-29 26-30-26 30-25zM314 34l30 25-30 26-30-26 30-25zM563 34l30 25-30 26-29-26 29-25zM189 34l30 25-30 26-30-26 30-25zM938 34l29 25-29 26-30-26 30-25zM688 34l30 25-30 26-30-26 30-25zM813 34l30 25-30 26-30-26 30-25zM64 34l30 25-30 26-29-26 29-25z"/><path d="M980 79l20-17v-5l-20-18 5-4 1 1 14 12V0H0v75l18 17 15-16 32 24 31-27 16 13 15-12 15 12 15-11 32 25 30-26 16 14 17-13 15 13 15-13 32 25 30-26 17 14 15-13 16 13 17-14 27 26 32-27 18 16 15-12 16 13 17-16 29 26 31-26 17 15 15-12 15 11 17-14 27 26 33-27 17 16 15-12 16 14 17-14 27 23 33-23 17 13 15-13 16 13 17-13 27 23 32-23 18 11 15-11v-7l-16 13zm-81-20l39-33 39 33-39 34zm-1 18l-20-18 21-18 4 5-15 13 14 13 1 1zm-23-20l-20-18 5-4 1 1 15 12 15-13 5 4zm-20 22l21-18 20 18-5 4-16-13-15 13zm-8-6l16-14-15-13 4-5 21 18-21 18zm-73-14l39-33 39 33-39 34zm0 18l-21-18 21-18 5 5-16 13 14 13 2 1zm-23-20l-21-18 5-4 1 1 15 13 15-14 5 4zm-21 22l21-18 20 18-5 4-15-13-16 14zm-7-6l15-14-15-13 5-5 20 18-21 18zm-74-14l39-33 39 33-39 34zm0 18l-21-18 21-17 5 4-16 13 15 13 1 1zm-23-20l-21-18 5-4 2 1 14 13 15-14 5 4zm-20 22l20-18 21 18-5 4-16-13-16 13zm-8-6l16-14-16-14 5-4 21 18-21 18zm-74-14l39-33 39 33-39 34zm0 18l-20-18 20-18 5 4-15 14 14 12 1 1zm-23-29l16-13 5 4-21 18-20-18 5-4 1 1zm-20 31l20-17v-1l21 18-5 4-16-13-16 13zm-8-6l16-14-16-13 5-5 21 18-21 18zm-74-14l40-33 39 33-39 34zm0 18l-20-18 21-18 4 5-15 13 14 13 1 1zm-23-20l-20-18 5-4 1 1 15 12 15-13 5 4zm-20 22l21-18 20 18-5 4-16-13-15 13zm-8-6l16-14-15-13 4-5 21 18-21 18zm-73-14l39-33 39 33-39 34zm0 18l-21-18 21-18 4 5-15 13 14 13 1 1zm-23-20l-21-18 5-4 1 1 15 13 15-14 5 4zm-21 22l21-18 20 18-5 4-15-13-16 14zm-8-6l16-14-15-13 5-5 20 18-21 18zm-73-14l39-33 39 33-39 34zm0 18l-21-18 21-17 5 4-16 13 14 13 2 1zm-23-20l-21-18 5-4 2 1 14 13 15-14 5 4zm-20 22l20-18 21 18-5 4-16-13-16 13zm-8-6l16-14-16-14 5-4 21 18-21 18zM25 59l39-33 39 33-39 34zm0 18L5 59l20-18 5 4-15 14 14 12 1 1zM2 62v-1l21 18-5 4L2 70zm0-14l16-13 5 4L2 57zM40 7L2 39v-8L30 7zm22-2L41 23l-5-4L52 5zm3 2l20 18-5 4-15-13-16 13-5-4zm12-2l14 13 1 1-5 4L67 5zm87 2l-37 32L89 7h9l29 24 28-24zm22-2l-20 18-5-4 16-14zm3 2l21 18-5 4-16-13-16 13-4-4zm13-2l14 13 1 1-5 4-20-18zm87 2l-38 32-37-32h9l28 24 29-24zm22-2l-20 18-5-4 16-14h9zm3 2l20 18-4 4-16-13-16 13-5-4zm13-2l14 12 1 1-5 5-20-18zm87 2l-38 32-37-32h9l28 24 29-24zm22-2l-20 18-5-4 16-14h9zm3 2l20 18-5 4-15-13-16 13-5-4zm12-2l15 12 1 1-5 5-20-18zm88 2l-38 32-38-32h10l28 24 28-24zm22-2l-21 18-5-4 16-14zm3 2l20 18-5 4-15-14-16 14-5-4zm12-2l14 13 1 1-5 4-20-18zm87 2l-37 32-38-32h9l29 24 28-24zm22-2l-20 18-5-4 16-14zm3 2l21 18-5 4-16-13-16 13-4-4zm13-2l14 13 1 1-5 4-20-18zm87 2l-38 32-37-32h9l28 24 29-24zm22-2l-20 18-5-4 16-14h9zm3 2l21 18-5 4-16-13-16 13-4-4zm13-2l14 12 1 1-5 5-20-18zm87 2l-38 32-37-32h9l28 24 29-24zm22-2l-20 18-5-4 16-14h9zm3 2l20 18-5 4-15-13-16 13-5-4zm12-2l15 12 1 1-5 5-20-18zm12 2h10l28 24v8zm15 70l-5-4 16-14-16-13 5-5 21 18z"/><path fill="%23fff" d="M25 41l5 4-15 14 14 12 1 1-5 5L5 59l20-18zM18 35l5 4L2 57v-9l16-13zM23 79l-5 4L2 70v-9l21 18zM150 42l5 4-16 13 14 13 2 1-5 4-21-18 21-17zM106 39l5-4 2 1 14 13 15-14 5 4-20 18-21-18zM148 79l-5 4-16-13-16 13-4-4 20-18 21 18zM99 45l5-4 21 18-21 18-5-4 16-14-16-14zM275 41l4 5-15 13 14 13 1 1-4 4-21-18 21-18zM231 39l5-4 1 1 15 12 15-13 5 4-20 18-21-18zM272 79l-5 4-15-13-16 14-5-5 21-18 20 18zM224 46l5-5 20 18-21 18-4-4 15-14-15-13zM356 39l5-4 1 1 14 12 16-13 5 4-21 18-20-18zM349 46l4-5 21 18-21 18-5-4 16-14-15-13zM400 41l4 5-15 13 14 13 1 1-5 4-20-18 21-18zM397 79l-5 4-16-13-15 13-5-4 21-18 20 18zM92 19l-5 4L67 5h10l14 13 1 1zM216 18l1 1-5 4-20-18h10l14 13zM205 29l-16-13-16 13-4-4 20-18 21 18-5 4zM161 19l16-14h9l-20 18-5-4zM342 18l-5 5-20-18h10l14 12 1 1zM330 29l-16-13-16 13-5-4 21-18 20 18-4 4zM286 19l16-14h9l-20 18-5-4zM411 19l16-14h9l-20 18-5-4zM467 18l-5 5-20-18h9l15 12 1 1zM454 29l-15-13-16 13-5-4 21-18 20 18-5 4zM80 29L65 16 49 29l-5-4L65 7l20 18-5 4zM36 19L52 5h10L41 23l-5-4zM473 46l5-5 21 18-21 18-5-4 16-14-16-13zM524 41l5 4-15 14 14 12 1 1-5 5-20-18 20-18zM501 48l16-13 5 4-21 18-20-18 5-4 1 1 14 12zM501 62v-1l21 18-5 4-16-13-16 13-4-4 20-17zM649 42l5 4-16 13 15 13 1 1-5 4-21-18 21-17zM605 39l5-4 2 1 14 13 15-14 5 4-20 18-21-18zM647 79l-5 4-16-13-16 13-4-4 20-18 21 18zM598 45l5-4 21 18-21 18-5-4 16-14-16-14zM774 41l5 5-16 13 14 13 2 1-5 4-21-18 21-18zM730 39l5-4 2 1 14 12 15-13 5 4-20 18-21-18zM771 79l-5 4-15-13-16 14-5-5 21-18 20 18zM723 46l5-5 20 18-21 18-4-4 15-14-15-13zM855 39l5-4 1 1 15 12 15-13 5 4-21 18-20-18zM848 46l4-5 21 18-21 18-5-4 16-14-15-13zM899 41l4 5-15 13 14 13 1 1-5 4-20-18 21-18zM896 79l-5 4-16-13-15 13-5-4 21-18 20 18zM591 19l-5 4-20-18h10l14 13 1 1zM715 18l1 1-5 4-20-18h10l14 13zM704 29l-16-13-16 13-4-4 20-18 21 18-5 4zM660 19l16-14h9l-20 18-5-4zM841 18l-5 5-20-18h10l14 12 1 1zM829 29l-16-13-16 13-4-4 20-18 21 18-5 4zM785 19l16-14h9l-20 18-5-4zM910 19l16-14h9l-20 18-5-4zM966 18l-5 5-20-18h9l15 12 1 1zM953 29l-15-13-16 13-5-4 21-18 20 18-5 4zM579 29l-15-14-16 14-5-4 21-18 20 18-5 4zM535 19l16-14h10l-21 18-5-4zM985 35l1 1 14 12v9l-20-18 5-4zM984 83l-4-4 20-17v8l-16 13zM972 73l16-14-16-13 5-5 21 18-21 18-5-4zM972 7l28 24v8L962 7h10z"/><path fill="%23fff" d="M838 7h9l28 24 28-24h10l-38 32-37-32zM713 7h9l28 24 29-24h9l-38 32-37-32zM588 7h9l29 24 28-24h9l-37 32-38-32zM463 7h10l28 24 28-24h10l-38 32-38-32zM339 7h9l28 24 28-24h10l-38 32-37-32zM214 7h9l28 24 29-24h9l-38 32-37-32zM89 7h9l29 24 28-24h9l-37 32L89 7zM2 31L30 7h10L2 39v-8zM899 59l39 34 39-34-39-33zm39 26l-30-26 30-25 29 25zM774 59l39 34 39-34-39-33zm39 26l-30-26 30-25 30 25zM649 59l39 34 39-34-39-33zm39 26l-30-26 30-25 30 25zM524 59l39 34 39-34-39-33zm39 26l-29-26 29-25 30 25zM399 59l40 34 39-34-39-33zm40 26l-30-26 30-25 29 25zM275 59l39 34 39-34-39-33zm39 26l-30-26 30-25 30 25zM150 59l39 34 39-34-39-33zm39 26l-30-26 30-25 30 25zM25 59l39 34 39-34-39-33zm39 26L35 59l29-25 30 25z"/></g></svg>'); 
+    }
+    
+    @keyframes shape-anim-9471-mobile {
+      100% {
+        transform: scaleX(1.3) translateX(calc(100% - (100% / 1.3)));
+      }
+    } 
+    @media (min-width:768px){
+    .shapedividers_com-1516::before{
+    transform:scaleX(1.3);
+    transform-origin: 100% 0;
+    animation: 53s infinite alternate shape-anim-9471-mobile linear;
+    background-size: 100% 42px;
+    background-position: 50% 0%;   
+    }  
+    }
+    
+      
+    @media (min-width:1025px){
+    .shapedividers_com-1516::before{ 
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    transform:scaleX(1.3);
+    transform-origin: 100% 0;
+    animation: 66s infinite alternate shape-anim-9471-mobile  linear;
+    background-size: 100% 73px;
+    background-position: 50% 0%;  
+    }
+    }
+    @media (min-width:2100px){
+    .shapedividers_com-1516::before{
+    background-size: 100% calc(2vw + 73px);
+    }
+    }      
 
 a{
     color: #00cc99;
@@ -80,7 +143,9 @@ a{
 }
 
 .pre{
-    margin-left: 21%;
+    margin-left: 6%;
+    display: inline-block;
+    height: 100px;
 }
 
 .pre > h2{
@@ -99,8 +164,71 @@ a{
     margin-bottom: 8%;
 }
 
+.fotos-premios{
+    width: 400px;
+    height: 400px;
+    background-color: #2c2b2b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: -450px;
+    left: 957px;
+}
+
+.fotos-pre1{
+    width: 200px;
+    height: 200px;
+    border-top: 5px solid #2c2b2b;
+    border-right: 2.5px solid #2c2b2b;
+    border-bottom: 2.5px solid #2c2b2b;
+    border-left: 5px solid #2c2b2b; 
+    background-image: url("https://www.carnavalesco.com.br/wp-content/uploads/2020/01/sandra2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotos-pre2{
+    width: 200px;
+    height: 200px;
+    border-top: 5px solid #2c2b2b;
+    border-right: 5px solid #2c2b2b;
+    border-bottom: 2.5px solid #2c2b2b;
+    border-left: 2.5px solid #2c2b2b; 
+    background-image: url("https://s2.glbimg.com/R0tGOhcVd9sLb90zGiJLNbB0HhM=/0x0:1242x1177/984x0/smart/filters:strip_icc%28%29/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/Q/3/9EGdOdQuSeVPH6WrxkAQ/sandradesainstagram.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotos-pre3{
+    width: 200px;
+    height: 200px;
+    border-top: 2.5px solid #2c2b2b;
+    border-right: 2.5px solid #2c2b2b;
+    border-bottom: 5px solid #2c2b2b;
+    border-left: 5px solid #2c2b2b; 
+    background-image: url("https://i1.wp.com/www.blogdoneylima.com.br/wp-content/uploads/2017/10/sandra-de-sa-margareth-menezes-e-simoninha-se-apresentam-juntas-em-r-1752154251-e1509210620582.jpg?resize=750%2C468");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotos-pre4{
+    width: 200px;
+    height: 200px;
+    border-top: 2.5px solid #2c2b2b;
+    border-right: 5px solid #2c2b2b;
+    border-bottom: 5px solid #2c2b2b;
+    border-left: 2.5px solid #2c2b2b; 
+    background-image: url("https://observatoriodemusica.uol.com.br/wp-content/uploads/2020/08/sandra-de-sa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .fei{
-    margin-left: 21%;
+    margin-left: 6%;
 }
 
 .fei > h2{
@@ -118,6 +246,70 @@ a{
     margin-left: 100px;
     margin-bottom: 8%;
 }
+
+.fotos-feitos{
+    width: 400px;
+    height: 400px;
+    background-color: #2c2b2b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: -55px;
+    left: 701px;
+}
+
+.fotos-fei1{
+    width: 200px;
+    height: 200px;
+    border-top: 5px solid #2c2b2b;
+    border-right: 2.5px solid #2c2b2b;
+    border-bottom: 2.5px solid #2c2b2b;
+    border-left: 5px solid #2c2b2b; 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0RY8C5rhV_tWv6v45c9WGbQ3Q1wt0PmZD1NUSEm-LDedaGHnIMvqiV8Mkm1-LX_PyHhw&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotos-fei2{
+    width: 200px;
+    height: 200px;
+    border-top: 5px solid #2c2b2b;
+    border-right: 5px solid #2c2b2b;
+    border-bottom: 2.5px solid #2c2b2b;
+    border-left: 2.5px solid #2c2b2b; 
+    background-image: url("https://i.ytimg.com/vi/BkXDhKCzYAQ/sddefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotos-fei3{
+    width: 200px;
+    height: 200px;
+    border-top: 2.5px solid #2c2b2b;
+    border-right: 2.5px solid #2c2b2b;
+    border-bottom: 5px solid #2c2b2b;
+    border-left: 5px solid #2c2b2b; 
+    background-image: url("https://web.portalsucesso.com.br/wp-content/uploads/2020/02/sandra-de-sa-33.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotos-fei4{
+    width: 200px;
+    height: 200px;
+    border-top: 2.5px solid #2c2b2b;
+    border-right: 5px solid #2c2b2b;
+    border-bottom: 5px solid #2c2b2b;
+    border-left: 2.5px solid #2c2b2b; 
+    background-image: url("https://ofuxico.com.br/img/upload/aniversariantes/1115.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .music{
     margin-left: 21%;
@@ -142,6 +334,71 @@ a{
     color: #2c2b2b;
     font-size: 25px;
 }
+
+.efeito-footer{
+    width: 100%;
+    height: 70px;
+}
+
+.shapedividers_com-5521{
+    overflow:hidden;
+    position:relative;
+    }
+    .shapedividers_com-5521::before{
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    top: -1px;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat; 
+    transform:scaleX(1.3);
+    transform-origin: 100% 100%;
+    animation: 37s infinite alternate shape-anim-5521-mobile linear;
+    background-size: 100% 37px;
+    background-position: 50% 100%;    
+    background-image: url('data:image/svg+xml;charset=utf8, <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><g fill="%232c2b2b"><path d="M439 66l29-25-29-26-30 26 30 25zM314 66l30-25-30-26-30 26 30 25zM563 66l30-25-30-26-29 26 29 25zM189 66l30-25-30-26-30 26 30 25zM938 66l29-25-29-26-30 26 30 25zM688 66l30-25-30-26-30 26 30 25zM813 66l30-25-30-26-30 26 30 25zM64 66l30-25-30-26-29 26 29 25z"/><path d="M984 17l16 13v-7l-15-11-18 11-32-23-27 23-17-13-16 13-15-13-17 13-33-23-27 23-17-14-16 14-15-12-17 16-33-27-27 26-17-14-15 11-15-12-17 15-31-26-29 26-17-16-16 13-15-12-18 17-32-28-27 25-17-14-16 14-15-13-17 14-30-26-32 25-15-13-15 13-17-13-16 14-30-26-32 25-15-11-15 12-15-12-16 14L65 0 33 24 18 8 0 25v75h1000V52l-14 12-1 1-5-4 20-18v-5l-20-17zM938 7l39 34-39 33-39-33zm-35 20l-1 1-14 13 15 14-4 4-21-18 20-18zm-7 34l-5 4-15-13-15 12-1 1-5-4 20-18zm-36-44l15 13 16-13 5 4-20 18-21-18zm-8 6l21 18-21 18-4-5 15-13-16-14zM813 7l39 34-39 33-39-33zm-34 20l-2 1-14 13 16 13-5 5-21-18 21-18zm-8 34l-5 4-15-13-14 12-2 1-5-4 21-18zm-36-45l16 14 15-13 5 4-20 18-21-18zm-8 7l21 18-20 18-5-5 15-13-15-14zM688 7l39 34-39 33-39-33zm-34 20l-1 1-15 13 16 13-5 4-21-17 21-18zm-8 34l-5 4-15-14-14 13-2 1-5-4 21-18zm-36-44l16 13 16-13 5 4-21 18-20-18zm-7 6l21 18-21 18-5-4 16-14-16-14zM563 7l39 34-39 33-39-33zm-34 21l-1 1-14 12 15 14-5 4-20-18 20-18zm-42 36l-1 1-5-4 20-18 21 18-5 4-16-13zm-2-47l16 13 16-13 5 4-21 18v-1l-20-17zm-7 6l21 18-21 18-5-5 16-13-16-14zM439 7l39 34-39 33-40-33zm-35 20l-1 1-14 13 15 14-4 4-21-18 20-18zm-7 34l-5 4-15-13-15 12-1 1-5-4 20-18zm-36-44l15 13 16-13 5 4-20 18-21-18zm-8 6l21 18-21 18-4-5 15-13-16-14zM314 7l39 34-39 33-39-33zm-35 20l-1 1-14 13 15 13-4 5-21-18 21-18zm-7 34l-5 4-15-13-15 12-1 1-5-4 21-18zm-36-45l16 14 15-13 5 4-20 18-21-18zm-8 7l21 18-20 18-5-5 15-13-15-14zM189 7l39 34-39 33-39-33zm-34 20l-2 1-14 13 16 13-5 4-21-17 21-18zm-8 34l-5 4-15-14-14 13-2 1-5-4 21-18zm-36-44l16 13 16-13 5 4-21 18-20-18zm-7 6l21 18-21 18-5-4 16-14-16-14zM64 7l39 34-39 33-39-33zM30 28l-1 1-14 12 15 14-5 4L5 41l20-18zM2 30l16-13 5 4L2 39v-1zm0 13l21 18-5 4L2 52zm28 50L2 69v-8l38 32zm22 2L36 81l5-4 21 18zm-8-20l5-4 16 14 15-14 5 4-20 18zm23 20l20-18 5 4-1 1-14 13zm88-2l-28-24-29 24h-9l38-32 37 32zm22 2l-16-14 5-4 20 18zm-8-20l4-4 16 13 16-13 5 4-21 18zm23 20l20-18 5 4-1 1-14 13h-10zm88-2l-29-24-28 24h-9l37-32 38 32zm31 2h-9l-16-14 5-4 20 18zm-18-20l5-4 16 13 16-13 5 4-21 18zm24 20l20-18 5 5-1 1-14 12zm87-2l-28-24-28 24h-9l37-32 38 32zm23 2l-16-14 5-4 20 18zm-9-20l5-4 16 13 15-13 5 4-20 18zm24 20l20-18 5 5-1 1-15 12zm87-2l-28-24-28 24h-10l38-32 38 32zm22 2l-16-14 5-4 21 18zm-8-20l5-4 16 14 15-14 5 4-20 18zm23 20l20-18 5 4-1 1-14 13zm88-2l-28-24-29 24h-9l38-32 37 32zm22 2l-16-14 5-4 20 18zm-8-20l4-4 16 13 16-13 5 4-21 18zm23 20l20-18 5 4-1 1-14 13h-10zm88-2l-29-24-28 24h-9l37-32 38 32zm31 2h-9l-16-14 5-4 20 18zm-17-20l4-4 16 13 16-13 5 4-21 18zm23 20l20-18 5 5-1 1-14 12zm87-2l-28-24-28 24h-9l37-32 38 32zm23 2l-16-14 5-4 20 18zm-9-20l5-4 16 13 15-13 5 4-20 18zm24 20l20-18 5 5-1 1-15 12zm59-34v8l-28 24h-10zm-2-20l-21 18-5-5 16-13-16-14 5-4z"/><path fill="%23fff" d="M25 59l5-4-15-14 14-12 1-1-5-5L5 41l20 18zM18 65l5-4L2 43v9l16 13zM23 21l-5-4L2 30v9l21-18zM150 58l5-4-16-13 14-13 2-1-5-4-21 18 21 17zM106 61l5 4 2-1 14-13 15 14 5-4-20-18-21 18zM148 21l-5-4-16 13-16-13-4 4 20 18 21-18zM99 55l5 4 21-18-21-18-5 4 16 14-16 14zM275 59l4-5-15-13 14-13 1-1-4-4-21 18 21 18zM231 61l5 4 1-1 15-12 15 13 5-4-20-18-21 18zM272 21l-5-4-15 13-16-14-5 5 21 18 20-18zM224 54l5 5 20-18-21-18-4 4 15 14-15 13zM356 61l5 4 1-1 14-12 16 13 5-4-21-18-20 18zM349 54l4 5 21-18-21-18-5 4 16 14-15 13zM400 59l4-5-15-13 14-13 1-1-5-4-20 18 21 18zM397 21l-5-4-16 13-15-13-5 4 21 18 20-18zM92 81l-5-4-20 18h10l14-13 1-1zM216 82l1-1-5-4-20 18h10l14-13zM205 71l-16 13-16-13-4 4 20 18 21-18-5-4zM161 81l16 14h9l-20-18-5 4zM342 82l-5-5-20 18h10l14-12 1-1zM330 71l-16 13-16-13-5 4 21 18 20-18-4-4zM286 81l16 14h9l-20-18-5 4zM411 81l16 14h9l-20-18-5 4zM467 82l-5-5-20 18h9l15-12 1-1zM454 71l-15 13-16-13-5 4 21 18 20-18-5-4zM80 71L65 85 49 71l-5 4 21 18 20-18-5-4zM36 81l16 14h10L41 77l-5 4zM473 54l5 5 21-18-21-18-5 4 16 14-16 13zM524 59l5-4-15-14 14-12 1-1-5-5-20 18 20 18zM501 52l16 13 5-4-21-18-20 18 5 4 1-1 14-12zM501 38v1l21-18-5-4-16 13-16-13-4 4 20 17zM649 58l5-4-16-13 15-13 1-1-5-4-21 18 21 17zM605 61l5 4 2-1 14-13 15 14 5-4-20-18-21 18zM647 21l-5-4-16 13-16-13-4 4 20 18 21-18zM598 55l5 4 21-18-21-18-5 4 16 14-16 14zM774 59l5-5-16-13 14-13 2-1-5-4-21 18 21 18zM730 61l5 4 2-1 14-12 15 13 5-4-20-18-21 18zM771 21l-5-4-15 13-16-14-5 5 21 18 20-18zM723 54l5 5 20-18-21-18-4 4 15 14-15 13zM855 61l5 4 1-1 15-12 15 13 5-4-21-18-20 18zM848 54l4 5 21-18-21-18-5 4 16 14-15 13zM899 59l4-4-15-14 14-13 1-1-5-4-20 18 21 18zM896 21l-5-4-16 13-15-13-5 4 21 18 20-18zM591 81l-5-4-20 18h10l14-13 1-1zM715 82l1-1-5-4-20 18h10l14-13zM704 71l-16 13-16-13-4 4 20 18 21-18-5-4zM660 81l16 14h9l-20-18-5 4zM841 82l-5-5-20 18h10l14-12 1-1zM829 71l-16 13-16-13-4 4 20 18 21-18-5-4zM785 81l16 14h9l-20-18-5 4zM910 81l16 14h9l-20-18-5 4zM966 82l-5-5-20 18h9l15-12 1-1zM953 71l-15 13-16-13-5 4 21 18 20-18-5-4zM579 71l-15 14-16-14-5 4 21 18 20-18-5-4zM535 81l16 14h10l-21-18-5 4zM985 65l1-1 14-12v-9l-20 18 5 4zM984 17l-4 4 20 17v-8l-16-13zM972 27l16 14-16 13 5 5 21-18-21-18-5 4zM972 93l28-24v-8l-38 32h10z"/><path fill="%23fff" d="M838 93h9l28-24 28 24h10l-38-32-37 32zM713 93h9l28-24 29 24h9l-38-32-37 32zM588 93h9l29-24 28 24h9l-37-32-38 32zM463 93h10l28-24 28 24h10l-38-32-38 32zM339 93h9l28-24 28 24h10l-38-32-37 32zM214 93h9l28-24 29 24h9l-38-32-37 32zM89 93h9l29-24 28 24h9l-37-32-38 32zM2 69l28 24h10L2 61v8zM938 74l39-33-39-34-39 34zm29-33l-29 25-30-25 30-26zM813 74l39-33-39-34-39 34zm30-33l-30 25-30-25 30-26zM688 74l39-33-39-34-39 34zm30-33l-30 25-30-25 30-26zM563 74l39-33-39-34-39 34zm30-33l-30 25-29-25 29-26zM439 74l39-33-39-34-40 34zm29-33l-29 25-30-25 30-26zM314 74l39-33-39-34-39 34zm29-33l-29 25-30-25 30-26zM189 74l39-33-39-34-39 34zm30-33l-30 25-30-25 30-26zM64 74l39-33L64 7 25 41zm30-33L64 66 35 41l29-26z"/></g></svg>'); 
+    }
+    
+    @keyframes shape-anim-5521-mobile {
+      100% {
+        transform: scaleX(1.3) translateX(calc(100% - (100% / 1.3)));
+      }
+    } 
+    @media (min-width:768px){
+    .shapedividers_com-5521::before{
+    transform:scaleX(1.3);
+    transform-origin: 100% 100%;
+    animation: 53s infinite alternate shape-anim-5521-mobile linear;
+    background-size: 100% 42px;
+    background-position: 50% 100%;   
+    }  
+    }
+    
+      
+    @media (min-width:1025px){
+    .shapedividers_com-5521::before{ 
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    transform:scaleX(1.3);
+    transform-origin: 100% 100%;
+    animation: 66s infinite alternate shape-anim-5521-mobile  linear;
+    background-size: 100% 73px;
+    background-position: 50% 100%;  
+    }
+    }
+    @media (min-width:2100px){
+    .shapedividers_com-5521::before{
+    background-size: 100% calc(2vw + 73px);
+    }
+    }
+    
+      
 
 footer{
     background-color: #2c2b2b;
@@ -195,7 +452,36 @@ footer{
     /* display: none; */
 }
 
+@media screen and (min-width: 1281px) {
+    .alunos{
+        width: 218px;
+    }
+
+    .redes{
+        left: 0px;
+    }
+
+    .fotos-premios {
+        left: 855px;
+    }
+
+    .fotos-feitos{
+        left: 450px;
+    }
+
+}
+
 @media screen and (max-width: 1280px){
+
+    .fotos-premios {
+        top: -579px;
+        left: 764px;
+    }
+
+    .fotos-feitos{
+        left: 450px;
+    }
+
     .alunos {
         position: relative;
         top: -96px;
@@ -227,6 +513,72 @@ footer{
     }
 }
 
+@media screen and (max-width: 1024px){
+
+    .fotos-premios{
+        width: 300px;
+        height: 300px;
+        top: -18px;
+        left: 307px;
+    }
+
+    .fotos-pre1{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-pre2{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-pre3{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-pre4{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-feitos{
+        width: 300px;
+        height: 300px;
+        top: -16px;
+        left: 307px;
+    }
+
+    .fotos-fei1{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-fei2{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-fei3{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-fei4{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fei{
+        margin-top: 18%;
+    }
+
+    .music{
+        margin-top: 6%;
+    }
+
+}
+
 @media screen and (max-width: 900px){
     .bio{
         display: flex;
@@ -248,8 +600,66 @@ footer{
         margin: 0 auto;
     }
 
+    .pre{
+        height: 1100px;
+    }
+
     .pre, .fei, .music{
         margin-left: 5%;
+    }
+
+    .fotos-premios{
+        width: 300px;
+        height: 300px;
+        top: 13px;
+        left: 45px;
+    }
+
+    .fotos-pre1{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-pre2{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-pre3{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-pre4{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-feitos{
+        width: 300px;
+        height: 300px;
+        top: -16px;
+        left: 45px;
+    }
+
+    .fotos-fei1{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-fei2{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-fei3{
+        width: 150px;
+        height: 150px;
+    }
+
+    .fotos-fei4{
+        width: 150px;
+        height: 150px;
     }
 
     .music > iframe{
